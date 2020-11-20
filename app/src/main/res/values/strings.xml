@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Kidzy1</string>
+    <string name="lanjut">LANJUT</string>
+    <string name="paragraf1">Sensory play adalah aktivitas yang melibatkan indera anak, termasuk indera penglihatan, pendengaran, penciuman, perasa, dan sentuhan. </string>
+    <string name="paragraf2">Bentuk permainan ini bisa dalam bentuk mengejar cahaya, bermain tebak suara, bermain pasir dan air, bermain lompat-lompat mengikuti garis, atau permainan lainnya.</string>
+    <string name="sensory_play">Sensory Play</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="kategori_umur">Kategori Umur</string>
+    <string name="data_anak">Data Anak</string>
+    <string name="simpan">SIMPAN</string>
+
+    <string-array name="Spinner_gender">
+        <item>Pilih Jenis Kelamin</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+    <string-array name="Spinner_umur">
+        <item>Pilih Kategori Umur</item>
+        <item>Batita (1-3 Tahun)</item>
+        <item>Balita (3-5 Tahun)</item>
+    </string-array>
+</resources>
