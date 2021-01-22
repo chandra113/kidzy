@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontActivity">
+
+    <TextView
+        android:id="@+id/sensoryPlay"
+        style="@style/TextContent.Black"
+        android:textSize="32sp"
+        android:text="@string/sensory_play"/>
+    <TextView
+        android:id="@+id/text1"
+        style="@style/TextContent"
+        android:textSize="18sp"
+        android:layout_below="@id/sensoryPlay"
+        android:text="@string/paragraf1" />
+    <TextView
+        android:id="@+id/text2"
+        style="@style/TextContent"
+        android:textSize="18sp"
+        android:layout_below="@id/text1"
+        android:text="@string/paragraf2" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_play"
+        android:layout_below="@id/text2"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/button_next"
+        style="@style/ButtonGeneral"
+        android:text="@string/lanjut"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

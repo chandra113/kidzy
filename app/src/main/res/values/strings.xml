@@ -19,4 +19,21 @@
         <item>Batita (1-3 Tahun)</item>
         <item>Balita (3-5 Tahun)</item>
     </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="usia_kurang_dari_5_tahun">Usia kurang dari 5 tahun</string>
+    <string name="balita">BALITA</string>
+    <string name="usia_kurang_dari_3_tahun">Usia kurang dari 3 tahun</string>
+    <string name="batita">BATITA</string>
+    <string name="pilih_kategori_usia">Pilih Kategori Usia</string>
+    <string name="paragraf_edible">Opsi permainan edukatif anak yang aman, menarik anak untuk mengenal warna. Untuk membuatnya, masak tepung maizena dan air dengan api sedang. Jika dirasa masih terlalu kental, Moms bisa menambahkan air sampai mendapatkan konsistensi yang diinginkan. Setelah itu, angkat dan dinginkan sejenak, lalu dipisahkan pada wadah yang berbeda untuk kemudian diberi pewarna makanan.</string>
+    <string name="_1_edible_colouring">1. Edible Colouring</string>
+    <string name="_2_sensory_hula_hoop">2. Sensory Hula Hoop</string>
+    <string name="paragraf_hulahoop">Menyulap hula hoop menjadi permainan edukatif anak yang menyenangkan. Pertama, siapkan bahan-bahannya, seperti hula hoop, kain, pita, lonceng kecil, dan pom pom. Selanjutnya, bebas berkreasi untuk menghias hula hoop tadi. Sensory play ini cocok untuk bayi yang belum bisa duduk sendiri dan jadi aktivitas seru sambil melakukan tummy time.</string>
+    <string name="paragraf_board">Untuk membuat permainan edukatif anak ini, perlu bahan yang bervariasi, misalnya saja bubble wrap, kertas, kain, plastik, dll . Hal ini agar si kecil mengenal berbagai macam tekstur dari benda yang ada. Bahan-bahan ini bisa Moms tempelkan dengan lem pada kardus. Sambil bermain, bisa mengajak bayi berbicara dengan mengucapkan kata seperti lembut dan empuk untuk mendeskripsikan setiap bahan yang ia sentuh.</string>
+    <string name="_3_sensory_board">3. Sensory Board</string>
+    <string name="paragraf_plastisin">Anda dapat mempergunakan playdough untuk menstimulasi imajinasi anak. Biarkan ia membentuk model-model yang ia sukai. Anda dapat membimbing dengan membangun cerita yang sesuai. Misalkan saat Anda sedang bercerita tentang samudra, minta ia membuat area laut dengan pilihan adonan biru dan ikan-ikan dari adonan berwarna lainnya. Supaya lebih aman, Anda bisa membuat adonan playdough dari bahan-bahan dapur, seperti tepung terigu, air, minyak sayur, dan pewarna makanan.</string>
+    <string name="_2_slime">2. Slime</string>
+    <string name="paragraf_slime">Yang ini mungkin akan sedikit lebih berantakan, namun tekstur menarik dari slime akan menyenangkan untuk si kecil. Membuatnya pun sangat mudah, masukkan sabun cair ke dalam mangkuk, tuang 500 gram tepung maizena, lalu tambahkan segelas air matang sedikit demi sedikit, kemudian beri pewarna makanan. Aduk merata hingga tekstur kental seperti adonan kue. Selanjutnya, Anda juga bisa mengajak anak untuk membuat slime sesuai dengan tekstur yang diinginkan. Minta anak untuk menakar sendiri bahan-bahan yang ada. Ini akan mengajarkan anak pada konsep mencipta dan merancang.</string>
 </resources>

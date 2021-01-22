@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BatitaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/batita"
+                style="@style/TextContent.Black"
+                android:textSize="32sp"
+                android:textStyle="bold"
+                android:text="@string/batita"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:layout_margin="2dp"/>
+            <TextView
+                android:id="@+id/edible_colouring"
+                style="@style/TextContent.Subtitle"
+                android:text="@string/_1_edible_colouring"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/food_colourings"
+                android:padding="16dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/TextContent"
+                android:text="@string/paragraf_edible"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/hula_hoop"
+                style="@style/TextContent.Subtitle"
+                android:text="@string/_2_sensory_hula_hoop"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/hula_hoop"
+                android:padding="16dp"
+                android:adjustViewBounds="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/TextContent"
+                android:text="@string/paragraf_hulahoop"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:layout_margin="8dp"/>
+            <TextView
+                android:id="@+id/sensory_board"
+                style="@style/TextContent.Subtitle"
+                android:text="@string/_3_sensory_board"
+                android:textSize="28sp"
+                android:textStyle="bold"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/sensory_board"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:contentDescription="TODO" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                style="@style/TextContent"
+                android:text="@string/paragraf_board"
+                android:textSize="16sp"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/lightgray"
+                android:layout_margin="8dp"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/youtube_player_batita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+
+                app:videoId="98pPkbpkC5w"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"
+                app:showFullScreenButton="false"/>
+
+         </LinearLayout>
+    </ScrollView>
+</LinearLayout>
